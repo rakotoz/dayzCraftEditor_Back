@@ -1,0 +1,5462 @@
+{
+  "m_CraftClasses": {
+    "m_CustomizationSetting": {
+      "PathToMainBackgroundImg": "my path to main img",
+      "PathToRepairImg": "my path to RepairImg",
+      "PathToPaintImg": "my path to PaintImg",
+      "PathToCraftImg": "my path to CraftImg"
+    },
+    "WorkbenchesClassnames": [
+      "COTZ_Workbench"
+    ],
+    "CraftCategories": [
+      {
+        "CategoryName": "Инструменты",
+        "CraftItems": [
+          {
+            "Result": "Whetstone",
+            "ResultCount": 100,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Точильный камень",
+            "CraftComponents": [
+              {
+                "Classname": "SmallStone",
+                "Amount": 4,
+                "Destroy": 4,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": []
+          },
+          {
+            "Result": "MetalWire",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Проволока",
+            "CraftComponents": [
+              {
+                "Classname": "BarbedWire",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "BarbedWire",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Колючая проволока",
+            "CraftComponents": [
+              {
+                "Classname": "MetalWire",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "Nail",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Nail",
+            "ResultCount": 10,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Гвозди",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 30,
+                "Destroy": 30,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "MetalPlate",
+            "ResultCount": 5,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Листовой металл",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "Blowtorch",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "YRTSK_SCIFI_Barrels_Hacktool",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Хактул",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_wire",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise",
+              "COTZ_Grinder"
+            ]
+          },
+          {
+            "Result": "karas_Knife",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Нож-быстрореж",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_plastic",
+                "Amount": 500,
+                "Destroy": 500,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_Nuts",
+                "Amount": 500,
+                "Destroy": 500,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RawRubber",
+                "Amount": 500,
+                "Destroy": 500,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 1000,
+                "Destroy": 1000,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 1000,
+                "Destroy": 1000,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise",
+              "COTZ_Grinder"
+            ]
+          }
+        ]
+      },
+      {
+        "CategoryName": "Хранение",
+        "CraftItems": [
+          {
+            "Result": "Barrel_Green",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Зеленая бочка",
+            "CraftComponents": [
+              {
+                "Classname": "MetalPlate",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "Blowtorch",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "ExpansionSpraycanGreen",
+                "Amount": 150,
+                "Destroy": 150,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Barrel_Blue",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Синяя бочка",
+            "CraftComponents": [
+              {
+                "Classname": "MetalPlate",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "Blowtorch",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "ExpansionSpraycanBlue",
+                "Amount": 150,
+                "Destroy": 150,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Barrel_Yellow",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Желтая бочка",
+            "CraftComponents": [
+              {
+                "Classname": "MetalPlate",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "Blowtorch",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "ExpansionSpraycanYellowRust",
+                "Amount": 150,
+                "Destroy": 150,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "OC_Case100_A",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Кейс 100 слотов",
+            "CraftComponents": [
+              {
+                "Classname": "OC_Case50_A",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "MetalPlate",
+                "Amount": 3,
+                "Destroy": 3,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_plastic",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Nuts",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Grinder",
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "OC_Case100_B",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Кейс 100 слотов",
+            "CraftComponents": [
+              {
+                "Classname": "OC_Case50_B",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "MetalPlate",
+                "Amount": 3,
+                "Destroy": 3,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_plastic",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Nuts",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Grinder",
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "OC_Case250_A",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Кейс 250 слотов",
+            "CraftComponents": [
+              {
+                "Classname": "OC_Case100_A",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_plastic",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Nuts",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Grinder",
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "OC_Case250_B",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Кейс 250 слотов",
+            "CraftComponents": [
+              {
+                "Classname": "OC_Case100_B",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_plastic",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_Nuts",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Grinder",
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Case_repair",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Кейс Чинилка",
+            "CraftComponents": [
+              {
+                "Classname": "OC_Case250_A",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_plastic",
+                "Amount": 500,
+                "Destroy": 500,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_Nuts",
+                "Amount": 500,
+                "Destroy": 500,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Copper",
+                "Amount": 500,
+                "Destroy": 500,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Grinder",
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Case_repair",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Кейс Чинилка",
+            "CraftComponents": [
+              {
+                "Classname": "OC_Case250_B",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_plastic",
+                "Amount": 500,
+                "Destroy": 500,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_Nuts",
+                "Amount": 500,
+                "Destroy": 500,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Copper",
+                "Amount": 500,
+                "Destroy": 500,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Grinder",
+              "COTZ_Vise"
+            ]
+          }
+        ]
+      },
+      {
+        "CategoryName": "Бронепластины",
+        "CraftItems": [
+          {
+            "Result": "CJ_Materials_plate2",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Бронепластина 2",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_plate1",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 1,
+                "Destroy": 0,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "CJ_Materials_plate3",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Бронепластина 3",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_plate2",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 1,
+                "Destroy": 0,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "CJ_Materials_plate4",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Бронепластина 4",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_plate3",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 1,
+                "Destroy": 0,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "CJ_Materials_plate5",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Бронепластина 5",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_plate4",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 1,
+                "Destroy": 0,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "CJ_Materials_plate6",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Бронепластина 6",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_plate5",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 1,
+                "Destroy": 0,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "CJ_Materials_plate7",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Бронепластина 7",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_plate6",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 1,
+                "Destroy": 0,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "CJ_Materials_plate8",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Бронепластина 8",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_plate7",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 1,
+                "Destroy": 0,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "CJ_Materials_plate9",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Бронепластина 9",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_plate8",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 1,
+                "Destroy": 0,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "CJ_Materials_plate10",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Бронепластина 10",
+            "CraftComponents": [
+              {
+                "Classname": "CJ_Materials_plate9",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 1,
+                "Destroy": 0,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          }
+        ]
+      },
+      {
+        "CategoryName": "Оружие 2 тир",
+        "CraftItems": [
+          {
+            "Result": "Arst_AEK971_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AEK971",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AEK971_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 2,
+                "Destroy": 2,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_AR15_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AR15",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AR15_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 2,
+                "Destroy": 2,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 99,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_AR15Skeleton_Blue_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AR15 Skeleton",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AR15Skeleton_Blue_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 2,
+                "Destroy": 2,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_AN94Abakan_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AN94 Abakan",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AN94Abakan_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 2,
+                "Destroy": 2,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_G36_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "G36",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_G36_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 2,
+                "Destroy": 2,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_HoneyBadger_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Honey Badger",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_HoneyBadger_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 2,
+                "Destroy": 2,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 150,
+                "Destroy": 150,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_MK14_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "MK14",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_MK14_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 2,
+                "Destroy": 2,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_ASH12_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "АШ-12",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_ASH12_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_VSK94_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "ВСК-94",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_VSK94_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_AX50_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AX50",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AX50_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_SniperRifle",
+                "Amount": 2,
+                "Destroy": 2,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_BarretM82A1_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Barret M82A1",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_BarretM82A1_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_SniperRifle",
+                "Amount": 2,
+                "Destroy": 2,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_KIVAARI_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "KIVAARI",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_KIVAARI_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 2,
+                "Destroy": 2,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Aurora_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Аврора",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Aurora_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_SniperRifle",
+                "Amount": 2,
+                "Destroy": 2,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "ArstVSSK_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "ВССК",
+            "CraftComponents": [
+              {
+                "Classname": "ArstVSSK_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_SniperRifle",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_M60_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "M60",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_M60_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_RPK16_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "РПК 16",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_RPK16_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_PKP_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "ПКП",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_PKP_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_VR80_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "VR80",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_VR80_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_Shotgun",
+                "Amount": 2,
+                "Destroy": 2,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Origin12_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Origin12",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Origin12_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_Shotgun",
+                "Amount": 2,
+                "Destroy": 2,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_mag_AR15_mod_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин AR15",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_mag_AR15_mod_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Mag_G36_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин G36",
+            "CraftComponents": [
+              {
+                "Classname": "Mag_G36_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_HoneyBadger_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин Honey Badger",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_HoneyBadger_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_MK14_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин MK14",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_MK14_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_ASH12_Magazine_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин АШ-12",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_ASH12_Magazine_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_VSK94_mag_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин ВСК-94",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_VSK94_mag_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_AX50_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин AX50",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_AX50_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_BarretM82A1_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин Barret M82A1",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_BarretM82A1_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_KIVAARI_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин KIVAARI",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_KIVAARI_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_Aurora_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин Аврора",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_Aurora_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "ArstVSSK_Mag_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин ВССК",
+            "CraftComponents": [
+              {
+                "Classname": "ArstVSSK_Mag_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_M60_Mag_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин M60",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_M60_Mag_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_RPK16_Mag_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин РПК 16",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_RPK16_Mag_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_PKP_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин ПКП",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_PKP_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_VR80_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин VR80",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_VR80_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Origin12_Mag_02",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин Origin12",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Origin12_Mag_01",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          }
+        ]
+      },
+      {
+        "CategoryName": "Оружие 3 тир",
+        "CraftItems": [
+          {
+            "Result": "Arst_AEK971_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AEK971",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AEK971_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_AR15_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AR15",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AR15_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_AR15Skeleton_Blue_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AR15 Skeleton",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AR15Skeleton_Blue_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_AN94Abakan_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AN94 Abakan",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AN94Abakan_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_G36_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "G36",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_G36_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_HoneyBadger_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Honey Badger",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_HoneyBadger_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_MK14_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "MK14",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_MK14_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_ASH12_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "АШ-12",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_ASH12_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 300,
+                "Destroy": 300,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 300,
+                "Destroy": 300,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_VSK94_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "ВСК-94",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_VSK94_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_AX50_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AX50",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AX50_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_SniperRifle",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_BarretM82A1_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Barret M82A1",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_BarretM82A1_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_SniperRifle",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_KIVAARI_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "KIVAARI",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_KIVAARI_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Aurora_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Аврора",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Aurora_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_SniperRifle",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "ArstVSSK_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "ВССК",
+            "CraftComponents": [
+              {
+                "Classname": "ArstVSSK_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_SniperRifle",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_M60_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "M60",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_M60_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 150,
+                "Destroy": 150,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_RPK16_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "РПК 16",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_RPK16_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 150,
+                "Destroy": 150,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_PKP_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "ПКП",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_PKP_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 150,
+                "Destroy": 150,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_VR80_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "VR80",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_VR80_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_Shotgun",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Origin12_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Origin12",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Origin12_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_Shotgun",
+                "Amount": 5,
+                "Destroy": 5,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_mag_AR15_mod_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин AR15",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_mag_AR15_mod_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Mag_G36_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин G36",
+            "CraftComponents": [
+              {
+                "Classname": "Mag_G36_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_HoneyBadger_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин Honey Badger",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_HoneyBadger_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_MK14_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин MK14",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_MK14_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_ASH12_Magazine_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин АШ-12",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_ASH12_Magazine_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_VSK94_mag_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин ВСК-94",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_VSK94_mag_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_AX50_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин AX50",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_AX50_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_BarretM82A1_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин Barret M82A1",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_BarretM82A1_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_KIVAARI_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин KIVAARI",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_KIVAARI_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_Aurora_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин Аврора",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_Aurora_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "ArstVSSK_Mag_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин ВССК",
+            "CraftComponents": [
+              {
+                "Classname": "ArstVSSK_Mag_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_M60_Mag_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин M60",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_M60_Mag_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_RPK16_Mag_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин РПК 16",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_RPK16_Mag_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_PKP_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин ПКП",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_PKP_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_VR80_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин VR80",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_VR80_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Origin12_Mag_03",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин Origin12",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Origin12_Mag_02",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_RoughTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          }
+        ]
+      },
+      {
+        "CategoryName": "Оружие 4 тир",
+        "CraftItems": [
+          {
+            "Result": "Arst_AEK971_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AEK971",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AEK971_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_AR15_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AR15",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AR15_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_AR15Skeleton_Blue_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AR15 Skeleton",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AR15Skeleton_Blue_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_AN94Abakan_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AN94 Abakan",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AN94Abakan_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_G36_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "G36",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_G36_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_HoneyBadger_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Honey Badger",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_HoneyBadger_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 300,
+                "Destroy": 300,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_MK14_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "MK14",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_MK14_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_ASH12_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "АШ-12",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_ASH12_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 400,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 300,
+                "Destroy": 300,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_VSK94_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "ВСК-94",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_VSK94_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 300,
+                "Destroy": 300,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_AX50_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AX50",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AX50_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_SniperRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_BarretM82A1_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Barret M82A1",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_BarretM82A1_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_SniperRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_KIVAARI_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "KIVAARI",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_KIVAARI_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Aurora_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Аврора",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Aurora_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_SniperRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "ArstVSSK_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "ВССК",
+            "CraftComponents": [
+              {
+                "Classname": "ArstVSSK_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_SniperRifle",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_M60_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "M60",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_M60_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_RPK16_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "РПК 16",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_RPK16_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_PKP_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "ПКП",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_PKP_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_VR80_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "VR80",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_VR80_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_Shotgun",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 150,
+                "Destroy": 150,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Origin12_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Origin12",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Origin12_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_Shotgun",
+                "Amount": 10,
+                "Destroy": 10,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 150,
+                "Destroy": 150,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 100,
+                "Destroy": 100,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_mag_AR15_mod_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин AR15",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_mag_AR15_mod_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Mag_G36_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин G36",
+            "CraftComponents": [
+              {
+                "Classname": "Mag_G36_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_HoneyBadger_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин Honey Badger",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_HoneyBadger_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_MK14_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин MK14",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_MK14_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_ASH12_Magazine_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин АШ-12",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_ASH12_Magazine_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_VSK94_mag_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин ВСК-94",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_VSK94_mag_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_AX50_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин AX50",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_AX50_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_BarretM82A1_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин Barret M82A1",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_BarretM82A1_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_KIVAARI_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин KIVAARI",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_KIVAARI_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_Aurora_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин Аврора",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_Aurora_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "ArstVSSK_Mag_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин ВССК",
+            "CraftComponents": [
+              {
+                "Classname": "ArstVSSK_Mag_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_M60_Mag_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин M60",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_M60_Mag_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_RPK16_Mag_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин РПК 16",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_RPK16_Mag_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_PKP_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин ПКП",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_PKP_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 53,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_VR80_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин VR80",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_VR80_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Origin12_Mag_04",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин Origin12",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Origin12_Mag_03",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_ThinTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          }
+        ]
+      },
+      {
+        "CategoryName": "Оружие 5 тир",
+        "CraftItems": [
+          {
+            "Result": "Arst_AEK971_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AEK971",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AEK971_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CalibrationTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_AR15_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AR15",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AR15_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_AR15Skeleton_Blue_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AR15 Skeleton",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AR15Skeleton_Blue_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_AN94Abakan_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AN94 Abakan",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AN94Abakan_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_G36_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "G36",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_G36_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_HoneyBadger_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Honey Badger",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_HoneyBadger_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 300,
+                "Destroy": 300,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CalibrationTools",
+                "Amount": 300,
+                "Destroy": 300,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_MK14_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "MK14",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_MK14_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_ASH12_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "АШ-12",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_ASH12_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 25,
+                "Destroy": 25,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 400,
+                "Destroy": 400,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 300,
+                "Destroy": 300,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_VSK94_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "ВСК-94",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_VSK94_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 25,
+                "Destroy": 25,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 300,
+                "Destroy": 300,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 300,
+                "Destroy": 300,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_AX50_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "AX50",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_AX50_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_SniperRifle",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CalibrationTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_BarretM82A1_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Barret M82A1",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_BarretM82A1_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_SniperRifle",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_KIVAARI_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "KIVAARI",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_KIVAARI_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Aurora_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Аврора",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Aurora_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_SniperRifle",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "ArstVSSK_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "ВССК",
+            "CraftComponents": [
+              {
+                "Classname": "ArstVSSK_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_SniperRifle",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_M60_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "M60",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_M60_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_RPK16_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "РПК 16",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_RPK16_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_PKP_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "ПКП",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_PKP_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_AssaultRifle",
+                "Amount": 20,
+                "Destroy": 20,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_VR80_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "VR80",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_VR80_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_Shotgun",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Origin12_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Origin12",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Origin12_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_Shotgun",
+                "Amount": 15,
+                "Destroy": 15,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_mag_AR15_mod_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин AR15",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_mag_AR15_mod_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CalibrationTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Mag_G36_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин G36",
+            "CraftComponents": [
+              {
+                "Classname": "Mag_G36_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_HoneyBadger_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин Honey Badger",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_HoneyBadger_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_MK14_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин MK14",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_MK14_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_ASH12_Magazine_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин АШ-12",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_ASH12_Magazine_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_VSK94_mag_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин ВСК-94",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_VSK94_mag_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 50
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_AX50_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин AX50",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_AX50_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_BarretM82A1_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин Barret M82A1",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_BarretM82A1_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_KIVAARI_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин KIVAARI",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_KIVAARI_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_Aurora_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин Аврора",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_Aurora_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "ArstVSSK_Mag_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин ВССК",
+            "CraftComponents": [
+              {
+                "Classname": "ArstVSSK_Mag_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_M60_Mag_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин M60",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_M60_Mag_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_RPK16_Mag_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин РПК 16",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_RPK16_Mag_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_PKP_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин ПКП",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_PKP_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 53,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Mag_VR80_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин VR80",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Mag_VR80_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "Arst_Origin12_Mag_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин Origin12",
+            "CraftComponents": [
+              {
+                "Classname": "Arst_Origin12_Mag_04",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "ArstVSSK_05",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "ВССК Автоматический",
+            "CraftComponents": [
+              {
+                "Classname": "ArstVSSK_05",
+                "Amount": 1,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_crate_SniperRifle",
+                "Amount": 50,
+                "Destroy": 50,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 500,
+                "Destroy": 500,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 500,
+                "Destroy": 500,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          },
+          {
+            "Result": "ArstVSSK_Mag_50",
+            "ResultCount": 1,
+            "ComponentsDontAffectHealth": 1,
+            "CraftType": "craft",
+            "RecipeName": "Магазин ВССК 50 патронов",
+            "CraftComponents": [
+              {
+                "Classname": "ArstVSSK_Mag_05",
+                "Amount": 2,
+                "Destroy": 1,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_Scrap",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              },
+              {
+                "Classname": "CJ_Materials_CalibrationTools",
+                "Amount": 200,
+                "Destroy": 200,
+                "Changehealth": 0
+              }
+            ],
+            "AttachmentsNeed": [
+              "COTZ_Vise"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
